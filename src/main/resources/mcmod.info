@@ -1,0 +1,16 @@
+[
+{
+  "modid": "protmdent",
+  "name": "ProtectTamedEntity",
+  "description": "Protect Tamed Entity",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SATO-REI"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
