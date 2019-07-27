@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[26,)"
+[[mods]]
+modId="protmdent"
+version="${file.jarVersion}"
+displayName="ProtectTamedEntity"
+authors="SATO-REI"
+description='''
+Protect Tamed Entity
+'''
