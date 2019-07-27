@@ -1,15 +1,15 @@
 package com.stmod.protmdent;
 
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.passive.EntityHorse;
 import net.minecraft.entity.passive.EntityTameable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(
 	modid = ProtectTamedEntity.MODID,
@@ -20,8 +20,8 @@ public class ProtectTamedEntity
 {
     public static final String MODID = "protmdent";
     public static final String NAME = "ProtectTamedEntity";
-    public static final String VERSION = "1.8.9-1.0";
-	public static final String ACCEPTED_MCVERSIONS = "[1.8,1.8.9]";
+    public static final String VERSION = "1.7.10-1.0";
+	public static final String ACCEPTED_MCVERSIONS = "[1.7.10]";
 
     @EventHandler
     public void onInit(FMLInitializationEvent event)
